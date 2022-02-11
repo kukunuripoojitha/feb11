@@ -1,0 +1,37 @@
+#program for student result
+sn0=int(input('enter sno:'))
+sname=input('enter name:')
+sgroup=input('enter group:')
+s1=int(input('s1 marks:'))
+s2=int(input('s2 marks:'))
+s3=int(input('s3 marks:'))
+s4=int(input('s4 marks:'))
+s5=int(input('s5 marks:'))
+s6=int(input('s6 marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg>=91:
+    print('O-Grade')
+elif avg>=81:
+    print('A-Grade')
+elif avg>=71:
+     print('B-Grade')
+elif avg>=61:
+    print('C-Grade')
+elif avg>=51:
+    print('D-Grade')
+elif avg>=40:
+    print('pass')
+else:
+    print('fail')
+    
+enter sno:2
+enter name:pooitha.k
+enter group:MStCs
+s1 marks:99
+s2 marks:87
+s3 marks:77
+s4 marks:66
+s5 marks:56
+s6 marks:45
+B-Grade
